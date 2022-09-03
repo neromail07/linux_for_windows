@@ -1,0 +1,2 @@
+echo "testoviy text";
+obnovlenie
