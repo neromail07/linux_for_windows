@@ -1,0 +1,18 @@
+<script type="text/javascript">
+	
+	alert(`Добрый день, вы попали в программу вычисления процентной ставки по вашему вкладу`);
+
+	var summ = +prompt(`Пожалуйста введите сумму вклада`);
+	var proc = +prompt(`Пожалуйста введите процент ежегодной ставки`);
+	var data = +prompt(`Пожалуйста введите на сколько лет внесён вклад`);
+
+	for(var i = 1; i <= data; i++){
+		var summ2 = summ / proc + summ
+		var summ = parseInt (summ2)
+		alert(`Через ${i} год, на вашем счету будет ${summ2}`);
+} 
+
+
+
+
+</script>
